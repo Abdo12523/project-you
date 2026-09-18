@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+}
+body{
+    height: 3000px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* uitily ciasses */
+ .zx {
+    clear: both;
+ }
+ .container {
+    width: 95%;
+    margin: auto;
+ }
+ /* Start Nav */
+ nav{
+    width: 100%;
+    background-color: white;
+    box-shadow: -3px -3px 10px black;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    position: fixed;
+    top: 0;
+    z-index: 555;
+ }
+/* End Nav */
+/* Start Navbar */
+nav .cv {
+   float: left;
+}
+nav .cv p {
+    padding: 20px 30px;
+    margin: 2px 0;
+    margin-left: 16px;
+}
+nav.cv p span {
+    font-weight: bold;
+}
+nav .rt {
+  float: right;
+}
+nav .rt ul {
+   list-style: none;
+}
+nav .rt ul li {
+    float: left;
+    padding: 20px 30px;
+    margin: 2px 0;
+}
+nav .rt ul .yu {
+    margin-right: 16px;
+}
+nav .rt ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav .rt ul li:hover,
+nav .cv p:hover {
+    background-color: rgba(212, 212, 202, 0.959);
+    cursor: pointer;
+}
+/* End Navbar */
+header {
+    position: relative;
+}
+header img {
+    width: 100%;
+}
+header .fg {
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+header .fg p span {
+    font-weight: bold;
+    background-color: rgb(0, 0, 0, .69);
+    padding: 10px 15px;
+
+}
+#df {
+    margin-top: 60px;
+}
+#df h2 {
+    margin-bottom: 40px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+#df hr {
+    opacity: .4;
+    margin-bottom: 40px;
+}
+#df .vb {
+width: calc(100% /4 - 15px);
+position: relative;
+float: left;
+margin-right: 15px;
+margin-bottom: 15px;
+}
+#df .vb img {
+   width: 100%;
+}
+#df .vb span {
+background-color: black;
+color: white;
+padding: 15px 25px;
+text-transform: capitalize;
+position: absolute;
+top: 0;
+left: 0;
+}
+#jk {
+    margin-top: 100px;
+}
+#jk h3 {
+    margin-bottom: 40px;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+#jk hr {
+    opacity: .4;
+    margin-bottom: 40px;
+}
+#jk .bn {
+    width: calc(100% /4 - 15px);
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+#jk .bn img {
+    width: 100%;
+}
+#jk .bn .yt  {
+   text-transform: capitalize;
+   line-height: 25px;
+   font-size: 25px;
+}
+#jk .bn .kl {
+    opacity: .7;
+    line-height: 50px;
+}
+#jk .bn .er {
+    display: block;
+    line-height: 50px;
+    text-transform: capitalize;
+    background-color: #e4e4e4;
+    text-align: center;
+    margin-top: 15px;
+}
+#jk .bn .er:hover {
+    background-color: #c5c5c5;
+    cursor: pointer;
+}
+#we {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 40px;
+}
+#we h4 {
+    margin-bottom: 40px;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+#we hr {
+    opacity: .4;
+    margin-bottom: 40px
+}
+.ws input {
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #c5c5c5;
+   display: block;
+}
+.xd {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.bg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 30px;
+}
+.ol {
+    background: black;
+    color: whitesmoke;
+    padding: 25px 45px;
+    text-align: center;
+    font-size: 20px;
+}
+.ol a {
+    color: whitesmoke;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ol a:hover {
+    color: bisque;
+}
